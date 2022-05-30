@@ -43,4 +43,5 @@ function sumRootToLeaf(root: TreeNode | null): number {
         return dfs(root.left, val) + dfs(root.right, val);
     }
     return dfs(root, 0);
+    
 };
